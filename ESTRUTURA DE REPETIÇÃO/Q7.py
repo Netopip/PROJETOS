@@ -1,7 +1,7 @@
 def definir_maior():
     maior = 0
     for i in range(5):
-        numero = int(input())
+        numero = int(input('Digite um numero: '))
         if numero > maior:
             maior = numero
     return maior
