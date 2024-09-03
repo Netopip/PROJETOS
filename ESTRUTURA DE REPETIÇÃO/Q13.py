@@ -1,9 +1,19 @@
-def exponeciacao(num1,num2):
-    while True:
-        if num2 == 1:
+def exponeciacao(base,expoente):
+    resultado = 1
+    for i in range(abs(expoente)):
+        resultado *= base
+    if expoente < 0:
+        resultado = 1/resultado
+    return resultado      
 
 
 
 def main():
-    num1 = int(input('Base'))
-    num2 = int(input('Expoente'))
+    base = int(input('Base: '))
+    expoente = int(input('Expoente: '))
+    
+    resultado = exponeciacao(base, expoente)
+    print(f'O resultado é {resultado}')
+
+if __name__== '__main__':
+    main()        
