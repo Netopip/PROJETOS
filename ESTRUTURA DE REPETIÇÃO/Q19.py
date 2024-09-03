@@ -15,7 +15,6 @@ def main():
             lista.append(numero)
         elif numero == 0:
             break
-            continue
         else:
             print('Digite um numero valido.')
     menor, maior, soma = operacoes(lista)
