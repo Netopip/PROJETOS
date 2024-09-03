@@ -1,8 +1,8 @@
 
 def main():
     while True:
-        usuario = str(input())
-        senha = str(input())
+        usuario = str(input('Digite seu nome de usuário: '))
+        senha = str(input('Digite sua senha: '))
         if usuario != senha:
             print('Usuario e senhas validas!')
             break
