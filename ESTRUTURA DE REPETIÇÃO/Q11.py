@@ -10,8 +10,8 @@ def main():
     num1 = int(input())
     num2 = int(input())
 
-    msg = intervalo(num1, num2)
-    print(msg)
+    soma = intervalo(num1, num2)
+    print(f'A soma dos valores no intervalo de {num1} e {num2} é {soma}.')
 
 if __name__ == '__main__':
     main()
