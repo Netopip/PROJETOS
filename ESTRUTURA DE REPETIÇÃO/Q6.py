@@ -3,7 +3,7 @@ def main():
         if i == 20:
             print(f'{i}.')
         else:
-            print(f'{i}',end=',')
+            print(f'{i}',end=', ')
 
 
 
