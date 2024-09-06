@@ -3,7 +3,7 @@ Fatorial de: 5
 5! =  5 . 4 . 3 . 2 . 1 = 120'''
         
 def main():
-    numero = int(input())
+    numero = int(input('Diigte um numero inteiro: '))
     total = 1
 
     for i in range(1, numero + 1):
