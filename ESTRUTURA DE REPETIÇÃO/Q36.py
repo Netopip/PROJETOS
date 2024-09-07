@@ -2,12 +2,17 @@
 
 
 def main():
-    numero = int(input(f'Montar a tabuada de:'))
-    comeco = int(input('Começar por: '))
-    fim = int(input('Terminar em: '))
-    print(f'Vou montar uma tabuada de {numero} começando em 4 e terminando em {fim} :')
-    for i in range(comeco,fim+1):
-        print(f'{numero} x {i} = {numero * i}')
-        
+    while True:
+        numero = int(input(f'Montar a tabuada de:'))
+        comeco = int(input('Começar por: '))
+        fim = int(input('Terminar em: '))
+        if comeco > fim:
+            print(f'Valores errados, digite novamente!')
+        else:
+            print(f'Vou montar uma tabuada de {numero} começando em 4 e terminando em {fim} :')
+            for i in range(comeco,fim+1):
+                print(f'{numero} x {i} = {numero * i}')
+            break
+            
 if __name__=='__main__':
     main()
