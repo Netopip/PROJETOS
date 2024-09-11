@@ -76,7 +76,7 @@ def main():
     print(f'O aluno mais baixo é {alunos_mais_baixo:.2f}m com código {codigo_mais_baixo} com peso {peso_mais_baixo:.2f}kg.')
     print(f'O aluno mais gordo é {aluno_mais_gordo:.2f}kg com código {codigo_mais_gordo} com altura de {altura_mais_gordo:.2f}m.')
     print(f'O aluno mais magro é {aluno_mais_magro:.2f}kg com código {codigo_mais_magro} com altura de {altura_mais_magro:.2f}m')
-    print(f'Á média de altura e pesos é {media:.2f} e {mediap:.2f} respectivamentes.')
+    print(f'Á média de altura e pesos é {media:.2f}m e {mediap:.2f}kg respectivamentes.')
 
 
 if __name__ == '__main__':
