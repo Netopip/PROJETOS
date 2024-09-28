@@ -12,9 +12,3 @@ Desafio: Crie ma fórmula para chegar na posição da lista a partir do salário
 
 '''
 
-def main():
-   
-   vendendores = []
-   
-   for i in 
-    
