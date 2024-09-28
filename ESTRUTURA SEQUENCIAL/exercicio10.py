@@ -1,3 +1,5 @@
+'''Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.'''
+
 def temperatura(temperatura):
     f = (temperatura * 9/5) + 32
     return f
