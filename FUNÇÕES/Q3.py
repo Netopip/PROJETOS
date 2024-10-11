@@ -1,7 +1,7 @@
 '''Faça um programa, com uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.'''
 
 def retornar_soma(a,b,c):
-    soma = a+ b + c
+    soma = a + b + c
     return soma
 
 def main():
