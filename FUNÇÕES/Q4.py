@@ -18,7 +18,7 @@ def main():
         except ValueError:
             print('Entrada de dados inválida!')
     
-    # a função recebe a lista descompactada para poder verificar se o numero contida nela satisfaz a condição
+    # a função recebe a lista descompactada para poder verificar se o numero contida nela satisfaz a condição na função.
     positivo_negativo(*n)
     
 if __name__ == '__main__':
