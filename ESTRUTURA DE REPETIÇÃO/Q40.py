@@ -50,9 +50,9 @@ def media_acidentes_menos_2000v(estatistica_cidades):
 def main():
     estatistica_cidades = []
     for i in range(5):
-        codigo_cidade = int(input('O códiog da cidade: ').strip())
-        numero_veiculos = int(input('O total de veículos de passeio: ').strip())
-        numeros_acidentes = int(input('Nuúmero de acidentes com vítimas: ').strip())
+        codigo_cidade = int(input('O códiog da cidade:\n').strip())
+        numero_veiculos = int(input('O total de veículos de passeio:\n').strip())
+        numeros_acidentes = int(input('Nuúmero de acidentes com vítimas:\n').strip())
         estatistica_cidades.append([codigo_cidade,numero_veiculos,numeros_acidentes])
         
     
