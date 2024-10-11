@@ -25,7 +25,7 @@ def main():
             print('Entrada inválida.')
             
     novo_valor = somaImposto(*taxa_,*custo_)
-    print(f'Com a taxa de {taxa_[0]}% e o custo de {custo_[0]:.2f} o novo valor de custo do produto é R$ {novo_valor:.2f}.')
+    print(f'Com a taxa de {taxa_[0]:.2f}% e o custo de {custo_[0]:.2f} o novo valor de custo do produto é R$ {novo_valor:.2f}.')
     
     
 if __name__ == '__main__':
